@@ -1,8 +1,8 @@
 
 date="$(date --iso-8601=minutes | grep -E -o '^[^+]+')"
 time="$(date +%H)"
-temp="$(curl --request GET --url 'https://api.brightsky.dev/weather?date='$date'&lat=47.8562&lon=12.3491' --header 'Accept: application/json' | sed 's/"temperature":/&\n/;s/.*\n//;s/,/\n&/;s/\n.*//')"
-cloud="$(curl --request GET --url 'https://api.brightsky.dev/weather?date='$date'&lat=47.8562&lon=12.3491' --header 'Accept: application/json' | sed 's/"cloud_cover":/&\n/;s/.*\n//;s/,/\n&/;s/\n.*//')"
+temp="$(curl --request GET --url 'https://api.brightsky.dev/weather?date='$date'&lat=[Your Lat]&lon=[Your Lon]' --header 'Accept: application/json' | sed 's/"temperature":/&\n/;s/.*\n//;s/,/\n&/;s/\n.*//')"
+cloud="$(curl --request GET --url 'https://api.brightsky.dev/weather?date='$date'&lat=[Your Lat]&lon=[Your Lon]' --header 'Accept: application/json' | sed 's/"cloud_cover":/&\n/;s/.*\n//;s/,/\n&/;s/\n.*//')"
 
 if awk "BEGIN { exit !($temp <= 0) }"; then
     echo "󱩱 : $temp°C"
