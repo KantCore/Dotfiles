@@ -1,0 +1,19 @@
+Arbeitnehmerbestimmung
+Auftragsmontage
+Ausschüttungssperre
+Betriebswerkstoffe
+Haftungsbeschränkt
+Hilfs
+Lagerproduktion
+Lieferantenauswahl
+Materialkaufpreise
+Nachfragekurve
+Primärbedarf
+Programmgebundene
+Querschnittsfunktion
+Sekundärbedarf
+Stammkapitalanteile
+Tetriärbedarf
+Verschleißwerkzeuge
+qualitäten
+checksum_v1 = 93327b3488b4ef363f4a6fcb48e4fa71

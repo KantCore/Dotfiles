@@ -1,0 +1,147 @@
+@import 'colors.css';
+
+* {
+    font-family: "Adwaita Sans Medium 11";
+    font-size: 17px;
+    min-height: 0;
+    font-weight: bold;
+}
+
+window#waybar {
+    background: transparent;
+    background-color: transparent;
+    color: transparent;
+    transition-property: background-color;
+    transition-duration: 0.1s;
+    margin: 0px;
+    border-radius: 0px
+}
+
+button {
+    box-shadow: inset 0 -3px transparent;
+    border: none;
+    border-radius: 0px;
+}
+
+#workspaces {
+    margin: 5px 0px 5px 0px;
+    border-radius: 14px;
+}
+
+#workspaces button {
+    background: @surface_container_low;
+    border-radius: 14px;
+    color: @primary;
+    padding: 0px 4px;
+    margin: 0px 2px
+}
+#workspaces button:hover {
+    border-radius: 14px;
+    background-color: @surface_container_high
+}
+
+#workspaces button.focused {
+    color: @primary
+}
+#workspaces button.active {
+    background-color: @primary;
+    color: @surface_container;
+    border-radius: 14px;
+    padding: 0px 10px 0px 10px
+}
+
+#workspaces button.urgent {
+    background-color: @error;
+    color: @surface_container;
+    border-radius: 14px
+}
+
+#custom-clock {
+    background-color: @surface_container;
+    color: @primary;
+    border-radius: 15px;
+    padding: 0px 5px 0px 5px
+}
+#custom-weather {
+    background-color: @surface_container;
+    color: @primary;
+    border-radius: 15px;
+    padding: 0px 5px 0px 5px
+}
+
+#window {
+    background-color: @surface_container;
+    color: @primary;
+    border-radius: 14px;
+    padding: 5px 8px 5px 8px;
+    padding-left: 5px
+}
+window#waybar.empty #window {
+ background:none;
+}
+
+
+.modules-left {
+    background-color: @surface_container;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 16px;
+}
+/*
+.modules-center {
+    color: @primary;
+    background: @surface_container;
+    padding: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 15px;
+    border: 2px solid @primary;
+}
+
+.modules-right {
+    background: @surface_container;
+    padding: 0 5 0 5;
+    border-radius: 15px;
+    border: 2px solid @primary;
+}
+*/
+
+
+#pulseaudio,
+#mpris,
+#custom-exit,
+#language {
+    background-color: @surface_container;
+    color: @primary;
+    border-radius: 14px;
+    padding: 5px 10px 5px 10px
+}
+
+#tray {
+    background-color: @surface_container;
+    color: @primary;
+    border-radius: 14px;
+    padding: 5px 8px 5px 8px
+}
+
+#custom-exit {
+    padding: 5px 13px 5px 10px
+}
+
+#pulseaudio:hover,
+#mpris:hover,
+#custom-exit:hover,
+#custom-clock:hover,
+#custom-weather:hover,
+#language:hover {
+    background-color: @surface_container_high;
+}
+
+#pulseaudio:active,
+#mpris:active,
+#custom-exit:active,
+#custom-clock:active,
+#language:active {
+    background-color: #fff;
+    color: #fff;
+}

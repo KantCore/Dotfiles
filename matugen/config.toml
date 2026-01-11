@@ -1,0 +1,68 @@
+[config]
+
+fallback_color = "#3d3d3dff"
+
+
+[config.wallpaper]
+set = true
+command = "awww"
+arguments = ["img", "--transition-type", "wipe", "--transition-step", "180","--transition-fps", "120"]
+
+[templates.hyprland]
+input_path = '~/.config/matugen/template/hyprland-colors.conf'
+output_path = '~/.config/hypr/colors.conf'
+post_hook = 'hyprctl reload'
+
+[templates.waybar]
+input_path = '~/.config/matugen/template/colors.css'
+output_path = '~/.config/waybar/colors.css'
+post_hook = 'pkill -SIGUSR2 waybar'
+
+[templates.pywalfox]
+input_path = '~/.config/matugen/template/pywalfox-colors.json'
+output_path = '~/.cache/wal/colors.json'
+post_hook = 'pywalfox update'
+
+[templates.ghostty]
+input_path = '~/.config/matugen/template/ghostty'
+output_path = '~/.config/ghostty/themes/Matugen'
+post_hook = 'pkill -SIGUSR2 ghostty'
+
+[templates.yazi]
+input_path = '~/.config/matugen/template/yazi-colors.toml'
+output_path = '~/.config/yazi/theme.toml'
+
+[templates.gtk3]
+input_path = '~/.config/matugen/template/gtk-colors.css'
+output_path = '~/.config/gtk-3.0/colors.css'
+post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme ""; gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3-{{mode}}'
+
+[templates.gtk4]
+input_path = '~/.config/matugen/template/gtk-colors.css'
+output_path = '~/.config/gtk-4.0/colors.css'
+
+[templates.btop]
+input_path = '~/.config/matugen/template/btop.theme'
+output_path = '~/.config/btop/themes/matugen.theme'
+
+[templates.cava]
+input_path = '~/.config/matugen/template/cava-colors.ini'
+output_path = '~/.config/cava/themes/matugen'
+post_hook = "pkill -USR1 cava"
+
+[templates.rofi]
+input_path = '~/.config/matugen/template/colors.rasi'
+output_path = '~/.config/rofi/colors.rasi'
+
+[templates.dunst]
+input_path = '~/.config/matugen/template/dunstrc-colors'
+output_path = '~/.config/dunst/dunstrc'
+post_hook = 'dunstctl reload'
+
+[templates.helix]
+input_path = '~/.config/matugen/template/helix.toml'
+output_path = '~/.config/helix/themes/matugen.toml'
+
+[templates.Obsidian]
+input_path = '~/.config/matugen/template/obsidian.css'
+output_path = '~/Obsidian/.obsidian/themes/Minimal/theme.css'

@@ -1,0 +1,44 @@
+
+
+{
+ "material-code.colors": {
+
+    "primary": "{{colors.primary.dark.hex}}",
+
+    "foreground": "",
+    "mutedForeground": "",
+    "background": "",
+    "card": "",
+    "popover": "",
+    "hover": "",
+    "border": "",
+    "primaryForeground": "",
+    "secondary": "",
+    "secondaryForeground": "",
+    "error": "",
+    "errorForeground": "",
+
+    "success": "",
+
+    "warning": "",
+    "syntax.comment": "",
+    "syntax.string": "",
+
+    "syntax.keyword": "",
+
+    "syntax.variable": "",
+
+    "syntax.attribute": "",
+
+    "syntax.property": "",
+
+    "syntax.function": "",
+
+    "syntax.constant": "",
+
+    "syntax.bracket1": "",
+    "syntax.bracket2": "",
+    "syntax.bracket3": "",
+    "syntax.bracket4": ""
+  }
+}
