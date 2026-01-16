@@ -8,10 +8,10 @@ Features:
 - ...
 
 TODO:<br>
-  Shortterm:
-  - Update QT5/6 config<br>
-  Longterm:<br>
-  - replace and extend widgets using [quickshell](https://github.com/quickshell-mirror/quickshell)
+  - Shortterm:
+    - Update QT5/6 config<br>
+  - Longterm:<br>
+    - replace and extend widgets using [quickshell](https://github.com/quickshell-mirror/quickshell)
 Notes:
 - css styling of waybar & rofi app launcher copied from other open configs (forgot exactly where from, but will link them if I come across again)
 - Not the full config of my system, only what is needed for the theme changer
