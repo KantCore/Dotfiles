@@ -9,7 +9,7 @@ Features:
 
 TODO:<br>
   Shortterm:
-  - Update QT5/6 config
+  - Update QT5/6 config<br>
   Longterm:<br>
   - replace and extend widgets using [quickshell](https://github.com/quickshell-mirror/quickshell)
 Notes:
