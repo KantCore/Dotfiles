@@ -2,6 +2,14 @@
 
 Very much a WIP  
 <br>
+Features:
+- Theme Swap/Background change with Matugen using Rofi as image select
+- custom weather module in Waybar/Hyprlock using Brightsky's DWD API [https://github.com/jdemaeyer/brightsky/]
+- ...
+
+Notes:
+- css styling of waybar & rofi app launcher copied from other open configs (forgot exactly where from, but will link them if I come across again)
+- Not the full config of my system, only what is needed for the theme changer <br> 
 **Beware of dependencies**
 <br>
 ## Screenshots
