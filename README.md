@@ -10,6 +10,7 @@ Features:
 TODO:<br>
   - Shortterm:
     - Update QT5/6 config
+    - current YAZI coloring is missmatching
   - Longterm:
     - replace and extend widgets using [quickshell](https://github.com/quickshell-mirror/quickshell)
 
