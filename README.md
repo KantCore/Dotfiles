@@ -15,12 +15,16 @@ Very much a WIP
     - replace and extend widgets using [quickshell](https://github.com/quickshell-mirror/quickshell)
 
 **Notes:**
-- css styling of waybar & rofi app launcher copied from other open configs (forgot exactly where from, but will link them if I come across again)
+- css styling of waybar & rofi app launcher copied from other open configs (forgot exactly where from, but will link them if I come across again) 
 - Not the full config of my system, only what is needed for the theme changer
 - currently using firefox as default browser | to use you need [pywalfox](https://github.com/Frewacom/pywalfox)
 - using [awww](https://codeberg.org/LGFae/awww) as wallpaper manager (swww previous, project moved to codeberg)
 - Icon Font: [NerdFonts](https://github.com/ryanoasis/nerd-fonts)
 - wallpapers from screenshots found [here](https://wallhaven.cc/) <br>
+
+**Known Issues:**
+- matugen will behave sometimes wonky when using pictures with monochromatic color palettes. results in: primary color being blue in mostly white picture, or primary color of green in mostly black picture
+- waybar crashing irregularly (have excluded possibility of weather module, maybe specific to my system)
 
 *Beware of dependencies*
 <br>
