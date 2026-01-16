@@ -3,8 +3,8 @@
 Very much a WIP  
 <br>
 Features:
-- Theme Swap/Background change with Matugen using Rofi as image select
-- custom weather module in Waybar/Hyprlock using Brightsky's DWD API [https://github.com/jdemaeyer/brightsky/]
+- Theme Swap/Background change with [Matugen](https://github.com/InioX/matugen) using [Rofi](https://github.com/davatorium/rofi) as image select
+- custom weather module in Waybar/Hyprlock using [Brightsky's DWD API](https://github.com/jdemaeyer/brightsky/)
 - ...
 
 Notes:
