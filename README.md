@@ -7,10 +7,10 @@ Features:
 - custom weather module in Waybar/Hyprlock using [Brightsky's DWD API](https://github.com/jdemaeyer/brightsky/)
 - ...
 
-TODO:
+TODO:<br>
   Shortterm:
   - Update QT5/6 config
-  Longterm:
+  Longterm:<br>
   - replace and extend widgets using [quickshell](https://github.com/quickshell-mirror/quickshell)
 Notes:
 - css styling of waybar & rofi app launcher copied from other open configs (forgot exactly where from, but will link them if I come across again)
