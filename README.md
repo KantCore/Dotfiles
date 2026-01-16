@@ -11,6 +11,7 @@ Very much a WIP
   - Shortterm:
     - Update QT5/6 config
     - current YAZI coloring is missmatching
+    - complete hyprland modular config structure
   - Longterm:
     - replace and extend widgets using [quickshell](https://github.com/quickshell-mirror/quickshell)
 
