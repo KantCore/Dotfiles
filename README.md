@@ -17,7 +17,7 @@ TODO:<br>
 Notes:
 - css styling of waybar & rofi app launcher copied from other open configs (forgot exactly where from, but will link them if I come across again)
 - Not the full config of my system, only what is needed for the theme changer
-- currently using firefox as default browser (because of matugen compatibility) to use you need [pywalfox](https://github.com/Frewacom/pywalfox)
+- currently using firefox as default browser (because of matugen compatibility) | to use you need [pywalfox](https://github.com/Frewacom/pywalfox)
 - wallpapers from screenshots found [here](https://wallhaven.cc/) <br>
 
 **Beware of dependencies**
