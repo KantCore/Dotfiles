@@ -8,19 +8,19 @@ if awk "BEGIN { exit !($temp <= 0) }"; then
     echo "󱩱 : $temp°C"
 fi
 
-if awk "BEGIN { exit !($temp > 0) }" && awk "BEGIN { exit !($temp < 6) }"; then
+if awk "BEGIN { exit !($temp > 0) }" && awk "BEGIN { exit !($temp <= 6) }"; then
     echo " : $temp°C"
 fi
 
-if awk "BEGIN { exit !($temp > 6) }" && awk "BEGIN { exit !($temp < 12) }"; then
+if awk "BEGIN { exit !($temp > 6) }" && awk "BEGIN { exit !($temp <= 12) }"; then
     echo " : $temp°C"
 fi
 
-if awk "BEGIN { exit !($temp > 12) }" && awk "BEGIN { exit !($temp < 18) }"; then
+if awk "BEGIN { exit !($temp > 12) }" && awk "BEGIN { exit !($temp <= 18) }"; then
     echo " : $temp°C"
 fi
 
-if awk "BEGIN { exit !($temp > 18) }" && awk "BEGIN { exit !($temp < 24) }"; then
+if awk "BEGIN { exit !($temp > 18) }" && awk "BEGIN { exit !($temp <= 24) }"; then
     echo " : $temp°C"
 fi
 
