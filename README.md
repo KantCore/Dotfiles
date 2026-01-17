@@ -16,8 +16,8 @@ Very much a WIP
     - replace and extend widgets using [quickshell](https://github.com/quickshell-mirror/quickshell)
 
 **Notes:**
-- css styling of waybar & rofi app launcher copied from other open configs (forgot exactly where from, but will link them if I come across again) 
 - Not the full config of my system, only what is needed for the theme changer
+- css styling of waybar & rofi app launcher copied from other open configs (forgot exactly where from, but will link them if I come across again) 
 - currently using firefox as default browser | to use you need [pywalfox](https://github.com/Frewacom/pywalfox)
 - using [awww](https://codeberg.org/LGFae/awww) as wallpaper manager (swww previous, project moved to codeberg)
 - Icon Font: [NerdFonts](https://github.com/ryanoasis/nerd-fonts)
